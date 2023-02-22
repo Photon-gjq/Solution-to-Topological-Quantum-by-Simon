@@ -6241,7 +6241,7 @@ In the second case
 \begin{equation*}
 \hat{\sigma }_{1}\hat{\sigma }_{2}\hat{\sigma }_{1} =\begin{pmatrix}
 \mathrm{e}^{-\pi \mathrm{i} /5} & 0 & 0\\
-0 & -\phi \mathrm{^{-1} e}^{3\pi \mathrm{i} /5} & \phi ^{-1/2} \phi ^{-4\mathrm{i} \pi /5}\\
+0 & -\phi \mathrm{^{-1} e}^{\pi \mathrm{i} /5} & \phi ^{-1/2} \phi ^{-4\mathrm{i} \pi /5}\\
 0 & \phi ^{-1/2} \phi ^{-4\mathrm{i} \pi /5} & \phi ^{-1}\mathrm{e}^{\mathrm{i} \pi /5}
 \end{pmatrix} =\hat{\sigma }_{2}\hat{\sigma }_{1}\hat{\sigma }_{2} .
 \end{equation*}
@@ -6293,8 +6293,8 @@ For example, if we take
 0 & 1\\
 1 & 0
 \end{pmatrix} ,\quad \gamma _{2} =-\sigma _{2} =\begin{pmatrix}
-0 & -\mathrm{i}\\
-\mathrm{i} & 0
+0 & \mathrm{i}\\
+-\mathrm{i} & 0
 \end{pmatrix} ,\quad \gamma _{3} =\sigma _{3} =\begin{pmatrix}
 1 & 0\\
 0 & -1
@@ -7572,6 +7572,98 @@ Thus, in the order $|0;I \rangle ,|1;I \rangle ,|-1;\tau \rangle ,|0;\tau \rangl
 Consider a system of $N$-identical anyons with a total Hilbert space dimension $D$. The braid matrix $\hat{\sigma }_{1} ,\hat{\sigma }_{2} ,\dotsc ,\hat{\sigma }_{N-1}$ are all $D$-dimensional. Show that each of these matrices has the same determinant, and each of these matrices has the same trace. Hint: This is easy if you think about it right!
 
 \paragraph{Answer}
+For the determinant, we just use the defining relation
+\begin{equation*}
+\det(\hat{\sigma }_{1}\hat{\sigma }_{2}\hat{\sigma }_{1}) =\det (\hat{\sigma }_{1} )^{2} \cdot \det(\hat{\sigma }_{2}) =\det (\hat{\sigma }_{2}\hat{\sigma }_{1}\hat{\sigma }_{2} )=\det (\hat{\sigma }_{1} )\cdot \det(\hat{\sigma }_{2})^{2} ,
+\end{equation*}
+which means 
+\begin{equation*}
+\det\hat{\sigma }_{1} =\det\hat{\sigma }_{2} =\cdots .
+\end{equation*}
+For the trace, say $\hat{\sigma }_{i}$ which braids $a_{i} ,a_{i+1}$, we can use the $F$ matrix to change the basis that $a_{i}$ and $a_{i+1}$ fuse directly together, apply $\hat{\sigma }_{i}$, then use $F^{-1}$ to change the basis back. Note that this is actually a similarly transformation, which preserves trace, we know that
+\begin{equation*}
+\operatorname{tr}(\hat{\sigma }_{i}) =\sum _{c} m_{c}^{i} R_{c}^{aa} ,
+\end{equation*}
+where $m_{c}^{i}$ is the multiplicity of $c$ appears in the diagrams. Now the important thing is that, the braidng between $c$ and $a_{1}$ only involves a factor:
+\begin{equation*}
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+\path (0,80);\path (98.92756652832031,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+%Straight Lines [id:da8622658000420016] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (8.92,13.36) -- (59.69,73.99) ;
+%Straight Lines [id:da9896901003994163] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (42.76,53.78) -- (59.69,33.57) ;
+%Straight Lines [id:da5454724627873204] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (59.69,33.57) -- (76.61,13.36) ;
+%Straight Lines [id:da5177617009985445] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (59.69,33.57) -- (42.76,13.36) ;
+% Text Node
+\draw (-0.31,-6.24) node [anchor=north west][inner sep=0.75pt]    {$a_{1}$};
+% Text Node
+\draw (37.53,-5.23) node [anchor=north west][inner sep=0.75pt]    {$a_{i}$};
+% Text Node
+\draw (72.15,-5.23) node [anchor=north west][inner sep=0.75pt]    {$a_{i+1}$};
+% Text Node
+\draw (55,37.17) node [anchor=north west][inner sep=0.75pt]    {$c$};
+% Text Node
+\draw (52.61,57.41) node [anchor=north west][inner sep=0.75pt]    {$\cdots $};
+% Text Node
+\draw (10.31,-3.22) node [anchor=north west][inner sep=0.75pt]    {$\cdots $};
+\end{tikzpicture}
+\varpropto \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+\path (0,80);\path (84.92756652832031,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+%Straight Lines [id:da7700510736587902] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (9.12,17.36) -- (58.22,77.96) ;
+%Straight Lines [id:da4192505733470804] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (41.85,57.76) -- (58.22,37.56) ;
+%Straight Lines [id:da8804690013933927] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (58.22,37.56) -- (74.58,17.36) ;
+%Straight Lines [id:da3288243851274857] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (25.49,37.56) -- (41.85,17.36) ;
+% Text Node
+\draw (69.13,-1.24) node [anchor=north west][inner sep=0.75pt]    {$a_{1}$};
+% Text Node
+\draw (0.58,-1.24) node [anchor=north west][inner sep=0.75pt]    {$a_{i}$};
+% Text Node
+\draw (20.31,-2.25) node [anchor=north west][inner sep=0.75pt]    {$a_{i+1}$};
+% Text Node
+\draw (16.13,38.15) node [anchor=north west][inner sep=0.75pt]    {$c$};
+% Text Node
+\draw (50.94,61.38) node [anchor=north west][inner sep=0.75pt]    {$\cdots $};
+% Text Node
+\draw (48.49,0.77) node [anchor=north west][inner sep=0.75pt]    {$\cdots $};
+\end{tikzpicture}
+=\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+\path (0,80);\path (84.92756652832031,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+%Straight Lines [id:da10190959295485791] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (9.12,17.36) -- (58.22,77.96) ;
+%Straight Lines [id:da7586096714334962] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (41.85,57.76) -- (58.22,37.56) ;
+%Straight Lines [id:da6323958887560173] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (58.22,37.56) -- (74.58,17.36) ;
+%Straight Lines [id:da7751552637786197] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (25.49,37.56) -- (41.85,17.36) ;
+% Text Node
+\draw (60.13,-1.24) node [anchor=north west][inner sep=0.75pt]    {$a_{i+1}$};
+% Text Node
+\draw (0.58,-1.24) node [anchor=north west][inner sep=0.75pt]    {$a_{1}$};
+% Text Node
+\draw (27.31,-2.25) node [anchor=north west][inner sep=0.75pt]    {$a_{2}$};
+% Text Node
+\draw (16.13,38.15) node [anchor=north west][inner sep=0.75pt]    {$c$};
+% Text Node
+\draw (50.94,61.38) node [anchor=north west][inner sep=0.75pt]    {$\cdots $};
+% Text Node
+\draw (40.49,0.77) node [anchor=north west][inner sep=0.75pt]    {$\cdots $};
+\end{tikzpicture}
+,
+\end{equation*}
+which means $m_{c}^{i} =m_{c}^{1}$, so
+\begin{equation*}
+\operatorname{tr} (\hat{\sigma }_{i} )=\operatorname{tr} (\hat{\sigma }_{1} )=\cdots .
+\end{equation*}
 
 \section{Checking the locality constraint}
 (Easy) Consider Fig. 10.16. The braid on the left can be written as $\hat{b}_{3} =$ $\hat{\sigma }_{2}\hat{\sigma }_{1}^{2}\hat{\sigma }_{2}$.
