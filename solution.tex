@@ -5004,7 +5004,16 @@ N_{ab}^{c} =N_{\bar{a}\bar{b}}^{\bar{c}} ,
 that no anyon theory can have a particle $a$ such that $a\times a=a$ meaning $a$ fuses to $a$ to form only $a$ and nothing else.
 
 \paragraph{Answer}
-Suppose there is a theory that $a\times a=a$ and $a\neq I$, then consider the process of fusing $a,a$ and $\bar{a}$. As the Fig.\ref{fig:fusionOfThreeAnyons} below shows, if we fuse $a\times a=a$ first, then fuse $a\times \bar{a} =I$, we will get $I$ finally. However, if we change the order of fusion, fuse $a\times \bar{a}$ first and get $I$, then fuse $a\times I=a$, we will get $a$. We know that the order of fusion doesn't change final result, so $a=I$. So if $a\times a=a$, we can only have the trivial case, i.e. $I\times I=I$. 
+Suppose there is a theory that $a\times a=a$ and $a\neq I$, then consider the process of fusing $a,a$ and $\bar{a}$. We can simplicity, we can set the fusion rule between $a,\bar{a}$ is
+\begin{equation}
+a\times \bar{a} =I+c_{1} +\cdots +c_{n} .
+\label{eq:fusionChannelOfaabar}
+\end{equation}
+
+As the Fig.\ref{fig:fusionOfThreeAnyons} shows, if we fuse $a\times a=a$ first, then fuse $a\times \bar{a}$, we will get $I+c_{1} +\cdots +c_{n}$ finally. However, if we change the order of fusion, fuse $a\times \bar{a}$ first and get $I+c_{1} +\cdots +c_{n}$, then fuse $a$, we will get 
+\begin{equation*}
+a\times \bar{a} =a+a\times c_{1} +\cdots +a\times c_{n} .
+\end{equation*}
 \begin{figure}[h!]
 \centering
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
@@ -5012,47 +5021,50 @@ Suppose there is a theory that $a\times a=a$ and $a\neq I$, then consider the pr
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
 %uncomment if require: \path (0,100); %set diagram left start at 0, and has height of 100
 
-%Straight Lines [id:da4634021555868877] 
-\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (152,12) -- (242,102) ;
-%Straight Lines [id:da42758131788998166] 
-\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (182,42) -- (212,12) ;
-%Straight Lines [id:da8949097389354259] 
-\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (212,72) -- (272,12) ;
+%Straight Lines [id:da8590660242956558] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (121,6) -- (211,96) ;
+%Straight Lines [id:da4918681534713645] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (151,36) -- (181,6) ;
+%Straight Lines [id:da5778336776064139] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (181,66) -- (241,6) ;
 
-%Straight Lines [id:da44546381784505296] 
-\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (369,12) -- (459,102) ;
-%Straight Lines [id:da679345298037608] 
-\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (459,42) -- (429,12) ;
-%Straight Lines [id:da5199619955313683] 
-\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (429,72) -- (489,12) ;
+%Straight Lines [id:da5712783429115829] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (338,6) -- (428,96) ;
+%Straight Lines [id:da00547547016614347] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (428,36) -- (398,6) ;
+%Straight Lines [id:da2923856794370401] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (398,66) -- (458,6) ;
+
+% Text Node
+\draw (289,40) node [anchor=north west][inner sep=0.75pt]    {$=$};
+% Text Node
+\draw (132,0) node [anchor=north west][inner sep=0.75pt]    {$a$};
+% Text Node
+\draw (189,0) node [anchor=north west][inner sep=0.75pt]    {$a$};
+% Text Node
+\draw (249,0) node [anchor=north west][inner sep=0.75pt]    {$\bar{a}$};
+% Text Node
+\draw (149,50) node [anchor=north west][inner sep=0.75pt]    {$a$};
+% Text Node
+\draw (219,80) node [anchor=north west][inner sep=0.75pt]    {$I+c_{1} +\cdots +c_{n}$};
+% Text Node
+\draw (349,0) node [anchor=north west][inner sep=0.75pt]    {$a$};
+% Text Node
+\draw (409,0) node [anchor=north west][inner sep=0.75pt]    {$a$};
+% Text Node
+\draw (466,0) node [anchor=north west][inner sep=0.75pt]    {$\bar{a}$};
+% Text Node
+\draw (426,40) node [anchor=north west][inner sep=0.75pt]    {$I+c_{1} +\cdots +c_{n}$};
+% Text Node
+\draw (436,80) node [anchor=north west][inner sep=0.75pt]    {$a+a\times c_{1} +\cdots +a\times c_{n}$};
 
 
-% Text Node
-\draw (320,46) node [anchor=north west][inner sep=0.75pt]    {$=$};
-% Text Node
-\draw (163,6) node [anchor=north west][inner sep=0.75pt]    {$a$};
-% Text Node
-\draw (220,6) node [anchor=north west][inner sep=0.75pt]    {$a$};
-% Text Node
-\draw (280,6) node [anchor=north west][inner sep=0.75pt]    {$\bar{a}$};
-% Text Node
-\draw (180,56) node [anchor=north west][inner sep=0.75pt]    {$a$};
-% Text Node
-\draw (250,86) node [anchor=north west][inner sep=0.75pt]    {$I$};
-% Text Node
-\draw (380,6) node [anchor=north west][inner sep=0.75pt]    {$a$};
-% Text Node
-\draw (440,6) node [anchor=north west][inner sep=0.75pt]    {$a$};
-% Text Node
-\draw (497,6) node [anchor=north west][inner sep=0.75pt]    {$\bar{a}$};
-% Text Node
-\draw (447,56) node [anchor=north west][inner sep=0.75pt]    {$I$};
-% Text Node
-\draw (467,86) node [anchor=north west][inner sep=0.75pt]    {$a$};
 \end{tikzpicture}
 \caption{The fusion of $a,a,\bar{a}$.}
 \label{fig:fusionOfThreeAnyons}
 \end{figure}
+
+In order to get the same result, we know that $\{a,a\times c_{1} ,\cdots ,a\times c_{n}\}$ must be a permutation of $\{I,c_{1} ,\cdots ,c_{n}\}$, which means $a\times c_{i}$ \textbf{cannot have multiple fusion channels} because each fusion channel have at least one result. Furthermore, in first case, we have $I$ in the final result, so $\exists i$, s.t. $c_{i} =\bar{a}$. Now the rule that $a\times c_{i}$ cannot have multiple fusion channel contradicts with \eqref{eq:fusionChannelOfaabar}, so no anyon theory can have a particle $a$ such that $a\times a=a$.
 
 \chapter{Change of Basis and $F$-Matrices}
 
@@ -7666,13 +7678,176 @@ which means $m_{c}^{i} =m_{c}^{1}$, so
 \end{equation*}
 
 \section{Checking the locality constraint}
-(Easy) Consider Fig. 10.16. The braid on the left can be written as $\hat{b}_{3} =$ $\hat{\sigma }_{2}\hat{\sigma }_{1}^{2}\hat{\sigma }_{2}$.
+(Easy) Consider Fig.\ref{fig:localityAAA} The braid on the left can be written as $\hat{b}_{3} =$ $\hat{\sigma }_{2}\hat{\sigma }_{1}^{2}\hat{\sigma }_{2}$.
 \begin{enumerate}
 \item For the Fibonacci theory with $a=\tau $ check that the matrix $\hat{b}_{3}$ gives just a phase, which is dependent on the fusion channel $c$. I.e., show the matrix $\hat{b}_{3}$ is a diagonal matrix of complex phases. Show further that these phases are the same as the phase that would be accumulated for taking a single $\tau $ particle around the particle $c$.
 \item Consider the same braid for the Ising theory with $a=\sigma $. Show again that the result is a $c$-dependent phase.
 \end{enumerate}
 
-\noindent (Hard) Consider the braid shown on the left of Fig. 10.17. The braid can be written as $\hat{b}_{4} =\hat{\sigma }_{3}\hat{\sigma }_{2}\hat{\sigma }_{1}^{2}\hat{\sigma }_{2}\hat{\sigma }_{3}$.
+\begin{figure}[h!]
+\centering
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,135); %set diagram left start at 0, and has height of 135
+
+%Curve Lines [id:da4441585115621529] 
+\draw    (202.14,82.66) .. controls (160.57,99.82) and (180.38,127.9) .. (237.82,127.83) .. controls (295.26,127.76) and (343.53,90.79) .. (255.44,75.88) ;
+%Curve Lines [id:da11147698187779076] 
+\draw    (201.42,90.51) .. controls (180.45,100.73) and (197.17,116.99) .. (226.98,119.25) .. controls (256.8,121.51) and (290.23,100.28) .. (255.89,88.53) ;
+%Curve Lines [id:da6730479902789113] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (201.23,70.46) .. controls (193.55,69.11) and (184.18,69.9) .. (184.07,60.97) .. controls (183.95,52.05) and (287.72,44.42) .. (287.5,23.23) ;
+%Curve Lines [id:da35806285377344316] 
+\draw    (214.78,85.37) .. controls (223.82,83.56) and (233.76,83.56) .. (243.24,85.37) ;
+%Curve Lines [id:da14528236670523187] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (212.53,73.17) .. controls (224.27,75.43) and (229.24,75.88) .. (242.34,78.14) ;
+%Curve Lines [id:da24888935739762763] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (256.8,81.3) .. controls (268.54,83.56) and (287.06,91.24) .. (288.42,100.73) ;
+\draw [shift={(288.42,100.73)}, rotate = 81.87] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Straight Lines [id:da9560024655558101] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (207.11,58.72) -- (207.11,101.63) ;
+\draw [shift={(207.11,101.63)}, rotate = 90] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Straight Lines [id:da34660405837493435] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (249.12,51.04) -- (249.12,101.63) ;
+\draw [shift={(249.12,101.63)}, rotate = 90] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Straight Lines [id:da5382355627625701] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (249.57,17.15) -- (249.57,38.84) ;
+%Straight Lines [id:da5288907690406812] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (207.11,17.61) -- (207.11,46.97) ;
+%Curve Lines [id:da0812366131709128] 
+\draw    (212.96,79.17) .. controls (216.34,78.26) and (219.17,77.7) .. (223.95,77.43) ;
+
+%Curve Lines [id:da744896129398976] 
+\draw    (392.13,85.76) .. controls (335.13,100.95) and (371.99,125.89) .. (416.39,125.25) .. controls (460.8,124.61) and (497.83,99.5) .. (442.47,86.33) ;
+%Curve Lines [id:da5148656466556178] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (391.55,76.46) .. controls (383.87,75.56) and (354.9,75.32) .. (354.37,63.74) .. controls (353.85,52.16) and (464.15,48.38) .. (457.81,26) ;
+%Curve Lines [id:da9281728048283235] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (406.91,79.62) .. controls (421.81,81.88) and (457.95,90.46) .. (459.18,104.04) ;
+\draw [shift={(459.18,104.04)}, rotate = 84.84] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Curve Lines [id:da1937405317044787] 
+\draw    (404.83,84.36) .. controls (406.94,84.09) and (409.76,83.98) .. (413.5,84.36) ;
+%Straight Lines [id:da7641241697593497] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (397.56,55.96) -- (397.56,104.75) ;
+\draw [shift={(397.56,104.75)}, rotate = 90] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Straight Lines [id:da7123297771287953] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (397.56,26.14) -- (397.56,45.11) ;
+
+
+
+% Text Node
+\draw (204.08,-1) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$a$};
+% Text Node
+\draw (246.54,-1) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$a$};
+% Text Node
+\draw (285.84,-1) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$a$};
+% Text Node
+\draw (268.22,104.29) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$c$};
+% Text Node
+\draw (306.62,105.2) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$f$};
+% Text Node
+\draw (394.08,1.57) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$c$};
+% Text Node
+\draw (456.15,1.57) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$a$};
+% Text Node
+\draw (467.9,107.06) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$f$};
+% Text Node
+\draw (316.61,55.42) node [anchor=north west][inner sep=0.75pt]    {$=$};
+\end{tikzpicture}
+\caption{The locality constraint of $a,a,a$.}
+\label{fig:localityAAA}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,137); %set diagram left start at 0, and has height of 137
+
+%Curve Lines [id:da48005012890803767] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (406.92,84.56) .. controls (421.83,86.82) and (457.98,95.4) .. (459.2,108.99) ;
+\draw [shift={(459.2,108.99)}, rotate = 84.84] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Curve Lines [id:da48455883811391565] 
+\draw    (392.14,90.7) .. controls (335.13,105.89) and (372,130.83) .. (416.41,130.19) .. controls (460.82,129.55) and (497.86,104.44) .. (442.49,91.26) ;
+%Curve Lines [id:da8722293198278814] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (391.56,81.4) .. controls (383.88,80.49) and (354.9,80.25) .. (354.38,68.67) .. controls (353.86,57.09) and (464.17,53.31) .. (457.83,30.92) ;
+\draw [shift={(368.08,78.57)}, rotate = 10.58] [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.08]  [draw opacity=0] (7.14,-3.43) -- (0,0) -- (7.14,3.43) -- (4.74,0) -- cycle    ;
+\draw [shift={(411.49,53.22)}, rotate = 168.97] [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.08]  [draw opacity=0] (7.14,-3.43) -- (0,0) -- (7.14,3.43) -- (4.74,0) -- cycle    ;
+%Curve Lines [id:da6534979362287627] 
+\draw    (404.84,89.3) .. controls (406.95,89.03) and (409.78,88.91) .. (413.52,89.3) ;
+%Straight Lines [id:da6201900126274491] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (397.57,60.89) -- (397.57,109.69) ;
+\draw [shift={(397.57,109.69)}, rotate = 90] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Straight Lines [id:da3482404205300744] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (397.57,31.07) -- (397.57,50.05) ;
+\draw [shift={(397.57,36.46)}, rotate = 90] [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.08]  [draw opacity=0] (7.14,-3.43) -- (0,0) -- (7.14,3.43) -- (4.74,0) -- cycle    ;
+
+%Curve Lines [id:da08063743561300551] 
+\draw    (202.11,87.55) .. controls (160.55,104.72) and (180.36,132.81) .. (237.81,132.74) .. controls (295.26,132.67) and (343.54,95.69) .. (255.43,80.78) ;
+%Curve Lines [id:da5619779829028049] 
+\draw    (201.4,95.41) .. controls (180.43,105.63) and (197.14,121.89) .. (226.96,124.15) .. controls (256.79,126.41) and (290.22,105.18) .. (255.88,93.43) ;
+%Curve Lines [id:da048092793307539905] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (201.21,75.35) .. controls (193.53,74) and (184.15,74.79) .. (184.04,65.87) .. controls (183.93,56.94) and (287.71,49.31) .. (287.49,28.12) ;
+\draw [shift={(187.92,72.67)}, rotate = 16.03] [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.08]  [draw opacity=0] (7.14,-3.43) -- (0,0) -- (7.14,3.43) -- (4.74,0) -- cycle    ;
+\draw [shift={(241.24,50.38)}, rotate = 167.43] [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.08]  [draw opacity=0] (7.14,-3.43) -- (0,0) -- (7.14,3.43) -- (4.74,0) -- cycle    ;
+%Curve Lines [id:da17248471812798782] 
+\draw    (214.77,90.27) .. controls (223.8,88.46) and (233.74,88.46) .. (243.23,90.27) ;
+%Curve Lines [id:da7603279216217766] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (211.31,76.61) .. controls (215.31,77.18) and (218.74,77.75) .. (223.6,78.32) ;
+%Curve Lines [id:da8804125859785752] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (253.6,85.18) .. controls (264.17,88.04) and (287.06,96.14) .. (288.41,105.63) ;
+\draw [shift={(288.41,105.63)}, rotate = 81.87] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Straight Lines [id:da7272638799250273] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (207.08,63.61) -- (207.08,106.53) ;
+\draw [shift={(207.08,106.53)}, rotate = 90] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Straight Lines [id:da7356806877559408] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (249.1,55.93) -- (249.1,106.53) ;
+\draw [shift={(249.1,106.53)}, rotate = 90] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Straight Lines [id:da10030509523856646] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (249.56,22.04) -- (249.56,43.73) ;
+\draw [shift={(249.56,28.78)}, rotate = 90] [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.08]  [draw opacity=0] (7.14,-3.43) -- (0,0) -- (7.14,3.43) -- (4.74,0) -- cycle    ;
+%Straight Lines [id:da5226385743371742] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (207.08,22.04) -- (207.08,51.41) ;
+\draw [shift={(207.08,32.62)}, rotate = 90] [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.08]  [draw opacity=0] (7.14,-3.43) -- (0,0) -- (7.14,3.43) -- (4.74,0) -- cycle    ;
+%Curve Lines [id:da07495684145792891] 
+\draw    (212.94,84.06) .. controls (216.32,83.16) and (219.15,82.6) .. (223.93,82.33) ;
+%Straight Lines [id:da5752086666094567] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (227.1,55.93) -- (227.1,106.53) ;
+\draw [shift={(227.1,106.53)}, rotate = 90] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.75]      (0, 0) circle [x radius= 2.01, y radius= 2.01]   ;
+%Straight Lines [id:da5198457266167438] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (227.56,22.04) -- (227.56,43.73) ;
+\draw [shift={(227.56,28.78)}, rotate = 90] [fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=1 ][line width=0.08]  [draw opacity=0] (7.14,-3.43) -- (0,0) -- (7.14,3.43) -- (4.74,0) -- cycle    ;
+%Curve Lines [id:da609532659113271] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (232.17,79.47) .. controls (236.17,80.32) and (238.74,80.9) .. (244.74,82.61) ;
+
+
+
+% Text Node
+\draw (323.58,60.35) node [anchor=north west][inner sep=0.75pt]    {$=$};
+% Text Node
+\draw (222.53,3.97) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$a$};
+% Text Node
+\draw (306.62,110.1) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$f$};
+% Text Node
+\draw (268.21,109.19) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$c$};
+% Text Node
+\draw (285.84,3.97) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$a$};
+% Text Node
+\draw (246.53,3.97) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$a$};
+% Text Node
+\draw (204.05,3.97) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$a$};
+% Text Node
+\draw (467.92,112) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$f$};
+% Text Node
+\draw (454.17,6.5) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$a$};
+% Text Node
+\draw (394.09,6.5) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,opacity=1 ]  {$c$};
+\end{tikzpicture}
+\caption{The locality constraint of $a,a,a,a$.}
+\label{fig:localityAAAA}
+\end{figure}
+
+\noindent (Hard) Consider the braid shown on the left of Fig.\ref{fig:localityAAAA}. The braid can be written as $\hat{b}_{4} =\hat{\sigma }_{3}\hat{\sigma }_{2}\hat{\sigma }_{1}^{2}\hat{\sigma }_{2}\hat{\sigma }_{3}$.
 
 \begin{enumerate}
 \setcounter{enumi}{2}
@@ -7681,6 +7856,35 @@ which means $m_{c}^{i} =m_{c}^{1}$, so
 \end{enumerate}
 
 \paragraph{Answer}
+(a) For Fibonacci anyons, these two braiding operators are given by
+\begin{equation*}
+\hat{\sigma }_{1} =\begin{pmatrix}
+\mathrm{e}^{3\pi \mathrm{i} /5} &  & \\
+ & \mathrm{e}^{-4\pi \mathrm{i} /5} & \\
+ &  & \mathrm{e}^{3\pi \mathrm{i} /5}
+\end{pmatrix} ,\quad \hat{\sigma }_{2} =\begin{pmatrix}
+\mathrm{e}^{3\pi \mathrm{i} /5} & 0 & 0\\
+0 & \phi ^{-1}\mathrm{e}^{4\pi \mathrm{i} /5} & \phi ^{-1/2}\mathrm{e}^{-3\pi \mathrm{i} /5}\\
+0 & \phi ^{-1/2}\mathrm{e}^{-3\pi \mathrm{i} /5} & -\phi ^{-1}
+\end{pmatrix} .
+\end{equation*}
+Direct calcualtion gives
+\begin{equation*}
+\hat{b}_{3} =\hat{\sigma }_{2}\hat{\sigma }_{1}^{2}\hat{\sigma }_{2} =\begin{pmatrix}
+\mathrm{e}^{2\pi \mathrm{i} /5} &  & \\
+ & 1 & \\
+ &  & \mathrm{e}^{-4\pi \mathrm{i} /5}
+\end{pmatrix} ,
+\end{equation*}
+which is a diagonal matrix of complex phases. Note that in this process, $c$ only have two possibilities, i.e. $I,\tau $, and the final result $f$ corresponds $I,\tau $, we know that
+\begin{equation*}
+\begin{aligned}
+\hat{b}_{3} |N\rangle  & =(R_{I}^{c\tau } )^{2} =(R_{I}^{\tau \tau } )^{2} =\mathrm{e}^{-8\pi \mathrm{i} /5} =\mathrm{e}^{2\pi \mathrm{i} /5} ,\\
+\hat{b}_{3} |0\rangle  & =(R_{\tau }^{c\tau } )^{2} =(R_{\tau }^{I\tau } )^{2} =I,\\
+\hat{b}_{3} |1\rangle  & =(R_{\tau }^{c\tau } )^{2} =(R_{\tau }^{\tau \tau } )^{2} =\mathrm{e}^{6\pi \mathrm{i} /5} =\mathrm{e}^{-4\pi \mathrm{i} /5} .
+\end{aligned}
+\end{equation*}
+So these phases are the same as the phase that would be accumulated for taking a single $\tau $ particle around the particle $c$.
 
 
 \section{Enforcing the locality constraint}
