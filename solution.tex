@@ -7983,7 +7983,7 @@ which gives
 \end{equation*}
 
 
-(b) From the figure 10.16, we can see that $\tau $ braids around $f$ twice, which means the result will always be $(R_{f}^{c\tau } )^{2}$. So it is invariant under the transformation $R_{f}^{c\tau }\rightarrow -R_{f}^{c\tau }$. 
+(b) From the Fig.\ref{fig:localityAAA}, we can see that $\tau $ braids around $f$ twice, which means the result will always be $(R_{f}^{c\tau } )^{2}$. So it is invariant under the transformation $R_{f}^{c\tau }\rightarrow -R_{f}^{c\tau }$. 
 
 
 
@@ -7995,10 +7995,64 @@ This can be checked by the hexagon identity using $F_{\tau }^{\tau \tau I} =F_{I
 
 
 
-(d) From direct calculation, we can see
+(d) We have already figure out that the right part of Fig.\ref{fig:localityAAA} is:
 \begin{equation*}
-(R_{\tau }^{\tau \tau } )^{4} =\mathrm{e}^{-8\pi \mathrm{i} /5} =\mathrm{e}^{2\pi \mathrm{i} /5} =(R_{I}^{\tau \tau } )^{2} .
+\hat{b}_{3} |N \rangle =(R_{I}^{\tau \tau } )^{2} .
 \end{equation*}
+While the left part of Fig.\ref{fig:localityAAA} is
+\begin{equation*}
+\begin{aligned}
+\hat{\sigma }_{2}\hat{\sigma }_{1}\hat{\sigma }_{1}\hat{\sigma }_{2} |N \rangle  & =\hat{\sigma }_{2}\hat{\sigma }_{1}\hat{\sigma }_{1}\hat{\sigma }_{2} F_{I}^{\tau \tau \tau }\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+\path (0,70);\path (94.97024536132812,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+%Straight Lines [id:da7556404348647627] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (1.97,6.96) -- (41.97,46.96) ;
+%Straight Lines [id:da8420662452631105] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (61.97,26.96) -- (41.97,6.96) ;
+%Straight Lines [id:da47708456812367284] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (41.97,46.96) -- (81.97,6.96) ;
+%Straight Lines [id:da3162472235386862] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ] [dash pattern={on 0.84pt off 2.51pt}]  (41.97,46.96) -- (61.97,66.96) ;
+% Text Node
+\draw (9.97,-0.54) node [anchor=north west][inner sep=0.75pt]    {$\tau $};
+% Text Node
+\draw (46.97,-0.54) node [anchor=north west][inner sep=0.75pt]    {$\tau $};
+% Text Node
+\draw (82.97,-0.54) node [anchor=north west][inner sep=0.75pt]    {$\tau $};
+% Text Node
+\draw (54.97,28.46) node [anchor=north west][inner sep=0.75pt]    {$\tau $};
+% Text Node
+\draw (38.97,53.46) node [anchor=north west][inner sep=0.75pt]    {$I$};
+\end{tikzpicture}
+\\
+ & =\hat{\sigma }_{2}\hat{\sigma }_{1}\hat{\sigma }_{1} R_{\tau }^{\tau \tau }\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+\path (0,70);\path (94.97024536132812,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+%Straight Lines [id:da20932905132062474] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (1.97,6.96) -- (41.97,46.96) ;
+%Straight Lines [id:da6844706933147437] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (61.97,26.96) -- (41.97,6.96) ;
+%Straight Lines [id:da4159700799839392] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ]   (41.97,46.96) -- (81.97,6.96) ;
+%Straight Lines [id:da7259501798903829] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ] [dash pattern={on 0.84pt off 2.51pt}]  (41.97,46.96) -- (61.97,66.96) ;
+% Text Node
+\draw (9.97,-0.54) node [anchor=north west][inner sep=0.75pt]    {$\tau $};
+% Text Node
+\draw (46.97,-0.54) node [anchor=north west][inner sep=0.75pt]    {$\tau $};
+% Text Node
+\draw (82.97,-0.54) node [anchor=north west][inner sep=0.75pt]    {$\tau $};
+% Text Node
+\draw (54.97,28.46) node [anchor=north west][inner sep=0.75pt]    {$\tau $};
+% Text Node
+\draw (38.97,53.46) node [anchor=north west][inner sep=0.75pt]    {$I$};
+\end{tikzpicture}
+\\
+ & =R_{\tau }^{\tau \tau }\hat{\sigma }_{2}\hat{\sigma }_{1}\hat{\sigma }_{1} |N \rangle \\
+ & =(R_{\tau }^{\tau \tau } )^{3}\hat{\sigma }_{2} |N \rangle =(R_{\tau }^{\tau \tau } )^{4} .
+\end{aligned}
+\end{equation*}
+So without knowing the exact value of $R_{\tau }^{\tau \tau }$ and $R_{I}^{\tau \tau }$, we can give the relation $(R_{\tau }^{\tau \tau } )^{4} =(R_{I}^{\tau \tau } )^{2}$ directly from the locality constraints. 
 
 
 (e) Without knowing the exact value of $R_{I}^{\tau \tau } ,R_{\tau }^{\tau \tau }$, we can just write
@@ -8007,8 +8061,8 @@ This can be checked by the hexagon identity using $F_{\tau }^{\tau \tau I} =F_{I
 R_{I}^{\tau \tau } & \\
  & R_{\tau }^{\tau \tau }
 \end{pmatrix} ,\quad \hat{\sigma }_{2} =\begin{pmatrix}
-\phi ^{-2} R_{I}^{\tau \tau } +\phi ^{-1} R_{\tau }^{\tau \tau } & \phi ^{-3/2} (-R_{I}^{\tau \tau } +R_{\tau }^{\tau \tau } )\\
-\phi ^{-3/2} (-R_{I}^{\tau \tau } +R_{\tau }^{\tau \tau } ) & \phi ^{-1} R_{I}^{\tau \tau } +\phi ^{-2} R_{\tau }^{\tau \tau }
+\phi ^{-2} R_{I}^{\tau \tau } +\phi ^{-1} R_{\tau }^{\tau \tau } & \phi ^{-3/2} (R_{I}^{\tau \tau } -R_{\tau }^{\tau \tau } )\\
+\phi ^{-3/2} (R_{I}^{\tau \tau } -R_{\tau }^{\tau \tau } ) & \phi ^{-1} R_{I}^{\tau \tau } +\phi ^{-2} R_{\tau }^{\tau \tau }
 \end{pmatrix} .
 \end{equation*}
 We further know that with $f=\tau ,c=I,\tau $
@@ -8028,7 +8082,7 @@ This gives three equations:
 \end{equation*}
 
 
-(f) After tedious calculation, these equations simplifies to
+(f) The second equation can be reduced to:
 \begin{equation*}
 (R_{I}^{\tau \tau } -R_{\tau }^{\tau \tau } )(R_{I}^{\tau \tau } +R_{\tau }^{\tau \tau } )((R_{I}^{\tau \tau } )^{2} +\phi ^{-1} R_{I}^{\tau \tau } R_{\tau }^{\tau \tau } +(R_{\tau }^{\tau \tau } )^{2} )=0.
 \end{equation*}
@@ -8040,9 +8094,45 @@ With $(R_{\tau }^{\tau \tau } )^{4} =(R_{I}^{\tau \tau } )^{2}$, we have eight s
 \begin{equation*}
 (R_{I}^{\tau \tau } ,R_{\tau }^{\tau \tau } )=(\pm 1,\pm 1),(\pm 1,\mp 1),(\mathrm{e}^{\pm \mathrm{i} \pi /5} ,\mathrm{e}^{\mp 2\pi \mathrm{i} /5} ),(\mathrm{e}^{\mp 4\pi \mathrm{i} /5} ,\mathrm{e}^{\pm 3\pi \mathrm{i} /5} ).
 \end{equation*}
-The last two solutions are physical, which is the left and right handed Fibonacci anyons. 
+We can plug these solutions into other two equation to examine these solutions are correct. The last two solutions are physical, which is the left and right handed Fibonacci anyons. 
 
 \chapter{Computing with Anyons}
+\section{Ising Nonuniversality}
+The braiding matrices for Ising anyons are given by Eqs. $10.10$ and $10.11$. Demonstrate that any multiplication of these matrices, and there inverses will only produce a finite number of possible results. Thus conclude that Ising anyons are not universal for quantum computation. Hint: write the braiding matrices as $\mathrm{e}^{\mathrm{i} \alpha } U_{i}$ where $U_{i}$ is unitary with unit determinant, i.e., is an element of $SU(2)$. Then note that any $SU(2)$ matrix can be thought of as a rotation $\exp (\mathrm{i}\hat{n} \cdot \boldsymbol{\sigma } \theta /2)$ where here $\theta $ is an angle of rotation $\hat{n}$ is the axis of rotation and $\boldsymbol{\sigma }$ is the vector of Pauli spin matrices.
+
+\paragraph{Answer}
+
+\section{Brute Force Search}
+Given the braid matrices for Fibonacci anyons in Eq. $10.6$ and 10.7, write a computer program for brute-force searching braids up to length 10.
+
+
+
+Ignoring the noncomputational state $|N\rangle $, and ignoring the overall phase as usual, determine the closest approximation to the Hadamard gate
+\begin{equation*}
+H=\frac{1}{\sqrt{2}}\begin{pmatrix}
+1 & 1\\
+1 & -1
+\end{pmatrix}
+\end{equation*}
+Partial Answer: A braid of length 10 exists with phase-invariant distance to target dist $\approx 0.084$
+
+\paragraph{Answer}
+
+\section{Scaling of Kitaev-Solovay Algorithm}
+Given the discussion just above Eq. 11.8, prove Eqs. 11.8 and 11.9.
+
+\paragraph{Answer}
+
+\section{About the Injection Weave}
+One might wonder why we choose to work with an injection weave in Fig. $11.11$ which moves the red strand from the far right at the bottom all the way to the far left on the top. Show that for three Fibonacci anyons, there does not exist any injection weave that moves the (red) strand from the far right on the bottom to the middle on the top, even up to an overall phase. I.e., show that no weave exists starting on the bottom far left ending in the middle on the top whose effect on the three dimensional Hilbert space is $\mathrm{e}^{\mathrm{i} \phi }\mathds{1}_{3\times 3}$ for any phase $\phi $.
+
+\paragraph{Answer}
+
+\section{Universal Weaving and the Injection Weave}
+Consider injection weaves as described in Fig. 11.11. Let us assume that we can construct an injection weave of arbitrary precision. Given such an (approximately) perfect injection weave show that for any number of anyons $N >3$, a weave can be constructed that performs the same unitary operation on the Hilbert space as any given braid. A more general mathematical proof of the universality of weaving is also given in Simon et al. [2006].
+
+\paragraph{Answer}
+
 
 
 \bibliographystyle{amsalpha}
