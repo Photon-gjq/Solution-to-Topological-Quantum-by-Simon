@@ -10,4 +10,4 @@
 *.fdb_latexmk
 *blg
 *.ddf
-.Backup
+*.Backup-*
