@@ -240,67 +240,6 @@ If you can't figure it out, try evaluating the Kauffman bracket invariant for a 
 Using the definition of Kauffman bracket:
 \begin{equation*}
         \begin{aligned}
-                \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,68);\path (68.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Straight Lines [id:da7539388624541459] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (65.7,3.81) -- (3,66.51) ;
-                        %Straight Lines [id:da3938438906428654] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (41.56,41.59) -- (66.56,66.59) ;
-                        %Straight Lines [id:da18516570828706413] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (3.23,3.25) -- (28.23,28.25) ;
-                \end{tikzpicture}
-                & =A\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Curve Lines [id:da37581413358541704] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (4.17,2.29) .. controls (16.5,31.12) and (16.17,37.12) .. (4.17,63.79) ;
-                        %Curve Lines [id:da9006964162238551] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (50.96,2.29) .. controls (38.63,31.12) and (38.96,37.12) .. (50.96,63.79) ;
-                \end{tikzpicture}
-                +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,67);\path (71.98169708251953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Curve Lines [id:da0002888383512205106] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,4.31) .. controls (38.96,19.2) and (32.75,18.79) .. (5.15,4.31) ;
-                        %Curve Lines [id:da2642472194401073] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,60.79) .. controls (38.96,45.9) and (32.75,46.3) .. (5.15,60.79) ;
-                \end{tikzpicture}
-                \\
-                & \stackrel{!}{=}\mathrm{e}^{\mathrm{i} \theta }\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Curve Lines [id:da5214125017288944] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (4.17,2.29) .. controls (16.5,31.12) and (16.17,37.12) .. (4.17,63.79) ;
-                        %Curve Lines [id:da2916432495183652] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (50.96,2.29) .. controls (38.63,31.12) and (38.96,37.12) .. (50.96,63.79) ;
-                \end{tikzpicture}
-                ,
-        \end{aligned}
-\end{equation*}
-which means we have:
-\begin{equation*}
-        \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-        \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                %Curve Lines [id:da3520499283776384] 
-                \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (4.17,2.29) .. controls (16.5,31.12) and (16.17,37.12) .. (4.17,63.79) ;
-                %Curve Lines [id:da7874206506093477] 
-                \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (50.96,2.29) .. controls (38.63,31.12) and (38.96,37.12) .. (50.96,63.79) ;
-        \end{tikzpicture}
-        =\frac{A^{-1}}{\mathrm{e}^{\mathrm{i} \theta } -A}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-        \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                \path (0,67);\path (71.98169708251953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                %Curve Lines [id:da9101758088105385] 
-                \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,4.31) .. controls (38.96,19.2) and (32.75,18.79) .. (5.15,4.31) ;
-                %Curve Lines [id:da9071304110135325] 
-                \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,60.79) .. controls (38.96,45.9) and (32.75,46.3) .. (5.15,60.79) ;
-        \end{tikzpicture}
-        .
-\end{equation*}
-At the same time, we also have
-\begin{equation*}
-        \begin{aligned}
                 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt 
                 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                         \path (0,68);\path (68.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
@@ -328,7 +267,7 @@ At the same time, we also have
                         \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (50.96,2.29) .. controls (38.63,31.12) and (38.96,37.12) .. (50.96,63.79) ;
                 \end{tikzpicture}
                 \\
-                & \stackrel{!}{=}\mathrm{e}^{-\mathrm{i} \theta }\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                & \stackrel{!}{=}\mathrm{e}^{\mathrm{i} \theta }\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
                 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                         \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
                         %Curve Lines [id:da48143120116797333] 
@@ -338,6 +277,67 @@ At the same time, we also have
                 \end{tikzpicture}
                 ,
         \end{aligned}
+\end{equation*}
+which means we have:
+\begin{equation*}
+        \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+        \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                %Curve Lines [id:da3520499283776384] 
+                \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (4.17,2.29) .. controls (16.5,31.12) and (16.17,37.12) .. (4.17,63.79) ;
+                %Curve Lines [id:da7874206506093477] 
+                \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (50.96,2.29) .. controls (38.63,31.12) and (38.96,37.12) .. (50.96,63.79) ;
+        \end{tikzpicture}
+        =A^{-1}(\mathrm{e}^{\mathrm{i} \theta } -A^{-1})\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+        \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                \path (0,67);\path (71.98169708251953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                %Curve Lines [id:da9101758088105385] 
+                \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,4.31) .. controls (38.96,19.2) and (32.75,18.79) .. (5.15,4.31) ;
+                %Curve Lines [id:da9071304110135325] 
+                \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,60.79) .. controls (38.96,45.9) and (32.75,46.3) .. (5.15,60.79) ;
+        \end{tikzpicture}
+        .
+\end{equation*}
+At the same time, we also have
+\begin{equation*}
+        \begin{aligned}
+                \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                        \path (0,68);\path (68.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Straight Lines [id:da7539388624541459] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (65.7,3.81) -- (3,66.51) ;
+                        %Straight Lines [id:da3938438906428654] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (41.56,41.59) -- (66.56,66.59) ;
+                        %Straight Lines [id:da18516570828706413] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (3.23,3.25) -- (28.23,28.25) ;
+                \end{tikzpicture}
+                & =A\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                        \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Curve Lines [id:da37581413358541704] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (4.17,2.29) .. controls (16.5,31.12) and (16.17,37.12) .. (4.17,63.79) ;
+                        %Curve Lines [id:da9006964162238551] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (50.96,2.29) .. controls (38.63,31.12) and (38.96,37.12) .. (50.96,63.79) ;
+                \end{tikzpicture}
+                +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                        \path (0,67);\path (71.98169708251953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Curve Lines [id:da0002888383512205106] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,4.31) .. controls (38.96,19.2) and (32.75,18.79) .. (5.15,4.31) ;
+                        %Curve Lines [id:da2642472194401073] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,60.79) .. controls (38.96,45.9) and (32.75,46.3) .. (5.15,60.79) ;
+                \end{tikzpicture}
+                \\
+                & \stackrel{!}{=}\mathrm{e}^{-\mathrm{i} \theta }\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                        \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Curve Lines [id:da5214125017288944] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (4.17,2.29) .. controls (16.5,31.12) and (16.17,37.12) .. (4.17,63.79) ;
+                        %Curve Lines [id:da2916432495183652] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (50.96,2.29) .. controls (38.63,31.12) and (38.96,37.12) .. (50.96,63.79) ;
+                \end{tikzpicture}
+                ,
+        \end{aligned}        
 \end{equation*}
 Because exchange two particles in one certain direction gives a phase factor $\mathrm{e}^{\mathrm{i} \theta }$. Then
 \begin{equation*}
@@ -349,7 +349,7 @@ Because exchange two particles in one certain direction gives a phase factor $\m
                 %Curve Lines [id:da2760148242111715] 
                 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (50.96,2.29) .. controls (38.63,31.12) and (38.96,37.12) .. (50.96,63.79) ;
         \end{tikzpicture}
-        =\frac{A}{\mathrm{e}^{-\mathrm{i} \theta } -A^{-1}}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+        =A(\mathrm{e}^{-\mathrm{i} \theta } -A)\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
         \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                 \path (0,67);\path (71.98169708251953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
                 %Curve Lines [id:da06451084320784006] 
@@ -361,9 +361,9 @@ Because exchange two particles in one certain direction gives a phase factor $\m
 \end{equation*}
 So we have the equation
 \begin{equation*}
-        \frac{A}{\mathrm{e}^{-\mathrm{i} \theta } -A^{-1}} =\frac{A^{-1}}{\mathrm{e}^{\mathrm{i} \theta } -A} \Rightarrow \mathrm{e}^{\mathrm{i} \theta } =-A^{3} \text{ or } A^{-1}.
+        A(\mathrm{e}^{-\mathrm{i} \theta } -A) =A^{-1}({\mathrm{e}^{\mathrm{i} \theta } -A^{-1}}) \Rightarrow \mathrm{e}^{\mathrm{i} \theta } =-A^{3} \text{ or } A^{-1}.
 \end{equation*}
-By the way, we also have
+Where $A^{-1}$ is a trivial solution. By the way, we also have
 \begin{equation*}
         \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
         \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
@@ -389,7 +389,7 @@ By the way, we also have
         \mathrm{e}^{\mathrm{i} \theta } =\pm 1,
 \end{equation*}
 which gives bosons for fermions. And
-\begin{equation*}
+\begin{equation}\label{fermions}
         \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
         \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                 \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
@@ -407,15 +407,15 @@ which gives bosons for fermions. And
                 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,60.79) .. controls (38.96,45.9) and (32.75,46.3) .. (5.15,60.79) ;
         \end{tikzpicture}
         ,
-\end{equation*}
+\end{equation}
 which are fermions and bosons. 
 
 (b) For $A=\pm \mathrm{e}^{\mathrm{i} \pi /6}$, we have
 \begin{equation*}
         \mathrm{e}^{\mathrm{i} \theta } =\mp \mathrm{i} ,
 \end{equation*}
-which gives bosons for fermions. And
-\begin{equation*}
+which gives semions. And
+\begin{equation}\label{semions}
         \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
         \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                 \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
@@ -433,8 +433,10 @@ which gives bosons for fermions. And
                 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,60.79) .. controls (38.96,45.9) and (32.75,46.3) .. (5.15,60.79) ;
         \end{tikzpicture}
         ,
-\end{equation*}
+\end{equation}
 which are semions. 
+
+Such illustration can also be viewed as if we first acknowledge equ.~\ref{fermions} and equ.~\ref{semions}, then $A=\pm \mathrm{e}^{\mathrm{i}\pi/3}$ will give $A^2+A^{-2}=\pm 1$, and $A=\pm \mathrm{e}^{\mathrm{i}\pi/6}$ will give $A^2-A^{-2}=\pm \mathrm{i}$.
 
 \section{Reidermeister moves and the Kauffman Bracket}
 Show that the Kauffman bracket invariant is unchanged under application of Reidermeister move of type II and type III. Thus conclude that the Kauffman invariant is an invariant of regular isotopy.
@@ -487,16 +489,6 @@ Then according to the definition of the Kauffman bracket, we have:
                 \end{tikzpicture}
                 & =A\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
                 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,68);\path (68.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Straight Lines [id:da6104518270284445] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (65.7,3.81) -- (3,66.51) ;
-                        %Straight Lines [id:da0766348817654059] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (41.56,41.59) -- (66.56,66.59) ;
-                        %Straight Lines [id:da42798350857778145] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (3.23,3.25) -- (28.23,28.25) ;
-                \end{tikzpicture}
-                +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                         \path (0,92);\path (50.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
                         %Curve Lines [id:da6343061819532925] 
                         \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (48.86,3.92) .. controls (27.16,14.74) and (22.64,14.45) .. (2.57,3.92) ;
@@ -505,24 +497,26 @@ Then according to the definition of the Kauffman bracket, we have:
                         %Curve Lines [id:da8125503416637623] 
                         \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (20.95,61.67) .. controls (13.06,53.79) and (8.33,48.34) .. (2.78,43.5) .. controls (2.88,15.63) and (47.22,12.36) .. (48.19,43.9) .. controls (39.59,52.34) and (12.69,78.88) .. (2.61,89.48) ;
                 \end{tikzpicture}
-                \\
-                & =A\left( A\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,67);\path (71.98169708251953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Curve Lines [id:da12181300195230782] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,4.31) .. controls (38.96,19.2) and (32.75,18.79) .. (5.15,4.31) ;
-                        %Curve Lines [id:da003208814156384854] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,60.79) .. controls (38.96,45.9) and (32.75,46.3) .. (5.15,60.79) ;
-                \end{tikzpicture}
                 +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
                 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Curve Lines [id:da296212719001264] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (4.17,2.29) .. controls (16.5,31.12) and (16.17,37.12) .. (4.17,63.79) ;
-                        %Curve Lines [id:da14704308294878077] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (50.96,2.29) .. controls (38.63,31.12) and (38.96,37.12) .. (50.96,63.79) ;
+                        \path (0,68);\path (68.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Straight Lines [id:da6104518270284445] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (65.7,3.81) -- (3,66.51) ;
+                        %Straight Lines [id:da0766348817654059] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (41.56,41.59) -- (66.56,66.59) ;
+                        %Straight Lines [id:da42798350857778145] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (3.23,3.25) -- (28.23,28.25) ;
                 \end{tikzpicture}
-                \right) +A^{-1}\left( A\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \\
+                & =A \left( A\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                        \path (0,67);\path (71.98169708251953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Curve Lines [id:da4627840070580258] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,4.31) .. controls (38.96,19.2) and (32.75,18.79) .. (5.15,4.31) ;
+                        %Curve Lines [id:da7914769351421946] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,60.79) .. controls (38.96,45.9) and (32.75,46.3) .. (5.15,60.79) ;
+                \end{tikzpicture} 
+                +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
                 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                         \path (0,68);\path (58.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
                         %Curve Lines [id:da912568481834767] 
@@ -532,12 +526,21 @@ Then according to the definition of the Kauffman bracket, we have:
                         %Shape: Ellipse [id:dp9280843921436426] 
                         \draw  [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]  (15.74,34.85) .. controls (15.74,27.02) and (22.08,20.68) .. (29.91,20.68) .. controls (37.74,20.68) and (44.09,27.02) .. (44.09,34.85) .. controls (44.09,42.68) and (37.74,49.03) .. (29.91,49.03) .. controls (22.08,49.03) and (15.74,42.68) .. (15.74,34.85) -- cycle ;
                 \end{tikzpicture}
+                \right)
+                +A^{-1}\left( A \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                        \path (0,68);\path (53.991668701171875,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Curve Lines [id:da296212719001264] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (4.17,2.29) .. controls (16.5,31.12) and (16.17,37.12) .. (4.17,63.79) ;
+                        %Curve Lines [id:da14704308294878077] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (50.96,2.29) .. controls (38.63,31.12) and (38.96,37.12) .. (50.96,63.79) ;
+                \end{tikzpicture}
                 +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
                 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                         \path (0,67);\path (71.98169708251953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Curve Lines [id:da4627840070580258] 
+                        %Curve Lines [id:da12181300195230782] 
                         \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,4.31) .. controls (38.96,19.2) and (32.75,18.79) .. (5.15,4.31) ;
-                        %Curve Lines [id:da7914769351421946] 
+                        %Curve Lines [id:da003208814156384854] 
                         \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.81,60.79) .. controls (38.96,45.9) and (32.75,46.3) .. (5.15,60.79) ;
                 \end{tikzpicture}
                 \right)\\
@@ -647,21 +650,7 @@ Then according to the definition of the Kauffman bracket, we have:
                         %Straight Lines [id:da40285349600704823] 
                         \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (24.18,60.42) -- (24.18,75.72) ;
                 \end{tikzpicture}
-                & =A\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,79);\path (97.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Straight Lines [id:da651734203263048] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (22.94,1.73) -- (97.13,75.92) ;
-                        %Straight Lines [id:da9822862230824239] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (58.66,25.97) -- (82,2.63) ;
-                        %Straight Lines [id:da5738361847067126] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.71,76.73) -- (46.16,39.29) ;
-                        %Straight Lines [id:da651347852864083] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (37.54,61.48) -- (52.8,76.73) ;
-                        %Straight Lines [id:da16594256373987704] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (3.89,29.45) -- (22.64,48.2) ;
-                \end{tikzpicture}
-                +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                & =A \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
                 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                         \path (0,81);\path (79.99413299560547,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
                         %Curve Lines [id:da9862043434565733] 
@@ -675,44 +664,22 @@ Then according to the definition of the Kauffman bracket, we have:
                         %Curve Lines [id:da8772854853652521] 
                         \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (18.66,56.27) .. controls (0.27,39.31) and (-2.34,26.91) .. (5.49,21.03) .. controls (13.32,15.16) and (21.8,22.34) .. (78.29,78.46) ;
                 \end{tikzpicture}
+                +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                        \path (0,79);\path (97.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Straight Lines [id:da651734203263048] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (22.94,1.73) -- (97.13,75.92) ;
+                        %Straight Lines [id:da9822862230824239] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (58.66,25.97) -- (82,2.63) ;
+                        %Straight Lines [id:da5738361847067126] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.71,76.73) -- (46.16,39.29) ;
+                        %Straight Lines [id:da651347852864083] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (37.54,61.48) -- (52.8,76.73) ;
+                        %Straight Lines [id:da16594256373987704] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (3.89,29.45) -- (22.64,48.2) ;
+                \end{tikzpicture}
                 \\
-                & =A\left( A\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,74);\path (74.99585723876953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Straight Lines [id:da9591344309737191] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (4.57,4.74) -- (70.04,48.7) ;
-                        %Straight Lines [id:da22448626545323047] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (44.02,21.66) -- (70.12,4.14) ;
-                        %Straight Lines [id:da452032535930315] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (3.99,48.54) -- (30.09,31.01) ;
-                        %Curve Lines [id:da3238575571012392] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.89,69) .. controls (39.04,54.11) and (32.83,54.51) .. (5.22,69) ;
-                \end{tikzpicture}
-                +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,64);\path (61.991004943847656,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Straight Lines [id:da4597054660712325] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (17.45,4.43) -- (56.2,63.52) ;
-                        %Straight Lines [id:da9036592905897192] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (40.8,27.18) -- (56.24,3.61) ;
-                        %Straight Lines [id:da16547855392481936] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (17.11,63.31) -- (32.56,39.74) ;
-                        %Curve Lines [id:da9241917289860497] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (2.17,2.82) .. controls (14.5,31.65) and (14.17,37.65) .. (2.17,64.32) ;
-                \end{tikzpicture}
-                \right) +A^{-1}\left( A\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
-                        \path (0,67);\path (65.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
-                        %Curve Lines [id:da3283442283468585] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (66,2.52) .. controls (36.15,17.41) and (29.94,17) .. (2.33,2.52) ;
-                        %Curve Lines [id:da08588422248637961] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (66,64) .. controls (36.15,49.11) and (29.94,49.51) .. (2.33,64) ;
-                        %Curve Lines [id:da9555444507529145] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (40.2,33.6) .. controls (19.2,47.58) and (2.06,47.31) .. (2.13,33.44) .. controls (2.2,19.58) and (50.2,24.6) .. (66.2,41.6) ;
-                        %Curve Lines [id:da2724960587777081] 
-                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (47.2,26.6) .. controls (53.67,22.9) and (58.67,20.23) .. (65.2,20.6) ;
-                \end{tikzpicture}
-                +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                & =A\left(A \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
                 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                         \path (0,74);\path (74.99585723876953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
                         %Straight Lines [id:da9065450436189566] 
@@ -724,8 +691,45 @@ Then according to the definition of the Kauffman bracket, we have:
                         %Curve Lines [id:da7794924828593213] 
                         \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (71.62,5.31) .. controls (40.57,21.84) and (34.1,21.4) .. (5.38,5.31) ;
                 \end{tikzpicture}
+                +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                        \path (0,67);\path (65.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Curve Lines [id:da3283442283468585] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (66,2.52) .. controls (36.15,17.41) and (29.94,17) .. (2.33,2.52) ;
+                        %Curve Lines [id:da08588422248637961] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (66,64) .. controls (36.15,49.11) and (29.94,49.51) .. (2.33,64) ;
+                        %Curve Lines [id:da9555444507529145] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (40.2,33.6) .. controls (19.2,47.58) and (2.06,47.31) .. (2.13,33.44) .. controls (2.2,19.58) and (50.2,24.6) .. (66.2,41.6) ;
+                        %Curve Lines [id:da2724960587777081] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (47.2,26.6) .. controls (53.67,22.9) and (58.67,20.23) .. (65.2,20.6) ;
+                \end{tikzpicture}
+                \right) +A^{-1}\left(
+                A \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                        \path (0,64);\path (61.991004943847656,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Straight Lines [id:da4597054660712325] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (17.45,4.43) -- (56.2,63.52) ;
+                        %Straight Lines [id:da9036592905897192] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (40.8,27.18) -- (56.24,3.61) ;
+                        %Straight Lines [id:da16547855392481936] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (17.11,63.31) -- (32.56,39.74) ;
+                        %Curve Lines [id:da9241917289860497] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (2.17,2.82) .. controls (14.5,31.65) and (14.17,37.65) .. (2.17,64.32) ;
+                \end{tikzpicture}
+                +A^{-1}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+                        \path (0,74);\path (74.99585723876953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+                        %Straight Lines [id:da9591344309737191] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (4.57,4.74) -- (70.04,48.7) ;
+                        %Straight Lines [id:da22448626545323047] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (44.02,21.66) -- (70.12,4.14) ;
+                        %Straight Lines [id:da452032535930315] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (3.99,48.54) -- (30.09,31.01) ;
+                        %Curve Lines [id:da3238575571012392] 
+                        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (68.89,69) .. controls (39.04,54.11) and (32.83,54.51) .. (5.22,69) ;
+                \end{tikzpicture} 
                 \right)\\
-                & =A^{2}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                & =A^{-2}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
                 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                         \path (0,74);\path (74.99585723876953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
                         %Straight Lines [id:da6841403382603282] 
@@ -761,7 +765,7 @@ Then according to the definition of the Kauffman bracket, we have:
                         %Curve Lines [id:da7828362623581651] 
                         \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (47.2,26.6) .. controls (54.2,21.6) and (58.2,19.6) .. (65.2,20.6) ;
                 \end{tikzpicture}
-                +A^{-2}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+                +A^{2}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
                 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                         \path (0,74);\path (74.99585723876953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
                         %Straight Lines [id:da6133566330648923] 
@@ -794,7 +798,7 @@ Similarly, we can also work out that
                 %Straight Lines [id:da13239005571577134] 
                 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (53.01,62.23) -- (53.01,77.4) ;
         \end{tikzpicture}
-        =A^{2}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+        =A^{-2}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
         \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                 \path (0,74);\path (74.99585723876953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
                 %Straight Lines [id:da4709299158208502] 
@@ -830,7 +834,7 @@ Similarly, we can also work out that
                 %Curve Lines [id:da5022934803705121] 
                 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (56.24,2.82) .. controls (43.91,31.65) and (44.24,37.65) .. (56.24,64.32) ;
         \end{tikzpicture}
-        +A^{-2}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+        +A^{2}\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
         \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
                 \path (0,74);\path (74.99585723876953,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
                 %Straight Lines [id:da38554268799622116] 
@@ -1610,7 +1614,7 @@ Left hand side gives
 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (45.85,44) -- (29.88,28.03) ;
 \end{tikzpicture}
 \right)\\
-  =&-XA^{3}\left( A\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+  =&-XA^{3}\left( A^{-1}\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
 \path (0,47);\path (49.96210479736328,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
 %Curve Lines [id:da8181548829429155] 
@@ -1618,7 +1622,7 @@ Left hand side gives
 %Curve Lines [id:da757087464231881] 
 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.64,45.03) .. controls (15.98,24.3) and (15.71,19.99) .. (5.64,0.81) ;
 \end{tikzpicture}
-\right) +A^{-1}\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\right) +A\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
 \path (0,47);\path (49.96210479736328,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
 %Curve Lines [id:da463690322320498] 
@@ -1627,7 +1631,7 @@ Left hand side gives
 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (47.37,42.54) .. controls (26.64,32.2) and (22.32,32.48) .. (3.15,42.54) ;
 \end{tikzpicture}
 \right)\right)\\
-&-X^{-1} A^{-3}\left( A\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+&-X^{-1} A^{-3}\left( A^{-1}\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
 \path (0,47);\path (49.96210479736328,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
 %Curve Lines [id:da43452783894944447] 
@@ -1635,7 +1639,7 @@ Left hand side gives
 %Curve Lines [id:da05178812035949343] 
 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (47.37,42.54) .. controls (26.64,32.2) and (22.32,32.48) .. (3.15,42.54) ;
 \end{tikzpicture}
-\right) +A^{-1}\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\right) +A\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
 \path (0,47);\path (49.96210479736328,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
 %Curve Lines [id:da9259572966068133] 
@@ -1644,7 +1648,7 @@ Left hand side gives
 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.64,45.03) .. controls (15.98,24.3) and (15.71,19.99) .. (5.64,0.81) ;
 \end{tikzpicture}
 \right)\right)\\
- = & -(XA^{4} +X^{-1} A^{-4} )\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+ = & -(XA^{2} +X^{-1} A^{-2} )\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
 \path (0,47);\path (49.96210479736328,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
 %Curve Lines [id:da1504832104430338] 
@@ -1652,7 +1656,7 @@ Left hand side gives
 %Curve Lines [id:da6458906157079147] 
 \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.64,45.03) .. controls (15.98,24.3) and (15.71,19.99) .. (5.64,0.81) ;
 \end{tikzpicture}
-\right) -(XA^{2} +X^{-1} A^{-2} )\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\right) -(XA^{4} +X^{-1} A^{-4} )\mathrm{K}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
 \path (0,47);\path (49.96210479736328,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
 %Curve Lines [id:da9059654240451687] 
@@ -1761,7 +1765,7 @@ X\mathrm{H}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default
 \end{tikzpicture}
 \right)
 \end{equation*}
-But the second term in the left hand side is a trivial know, i.e. a circle, so
+But the second term in the left hand side is a trivial knot, i.e. a circle, so
 \begin{equation*}
 \mathrm{H}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
@@ -1864,7 +1868,8 @@ But note here the right hand side is trivial, while
 \end{equation*}
 We have
 \begin{equation*}
-\mathrm{H}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{aligned}
+        \mathrm{H}\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
 \path (0,41);\path (49.990928649902344,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
 %Curve Lines [id:da6000396983731908] 
@@ -1875,7 +1880,9 @@ We have
 %Shape: Arc [id:dp038329412020282616] 
 \draw  [draw opacity=0][line width=1.5]  (41.46,20.34) .. controls (43.41,21.98) and (44.92,23.99) .. (45.67,26.17) .. controls (47.56,31.69) and (43.82,36.17) .. (37.31,36.17) .. controls (30.8,36.17) and (23.99,31.69) .. (22.1,26.17) .. controls (20.21,20.65) and (23.95,16.17) .. (30.46,16.17) .. controls (31.31,16.17) and (32.17,16.24) .. (33.01,16.39) -- (33.88,26.17) -- cycle ; \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (43.57,22.47) .. controls (44.5,23.62) and (45.22,24.86) .. (45.67,26.17) .. controls (47.56,31.69) and (43.82,36.17) .. (37.31,36.17) .. controls (30.8,36.17) and (23.99,31.69) .. (22.1,26.17) .. controls (20.21,20.65) and (23.95,16.17) .. (30.46,16.17) .. controls (31.31,16.17) and (32.17,16.24) .. (33.01,16.39) ;  \draw [shift={(41.46,20.34)}, rotate = 50.96] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.68,-1.71) .. controls (3.61,-0.72) and (1.72,-0.15) .. (0,0) .. controls (1.72,0.15) and (3.61,0.72) .. (5.68,1.71)   ;
 \end{tikzpicture}
-\right) =X^{-1}\left( (X+X^{-1} )-X^{-1}\frac{(X+X^{-1} )^{2}}{z^{2}}\right) .
+\right) =&X^{-1}\left( (X+X^{-1} )-X^{-1}\frac{(X+X^{-1} )^{2}}{z^{2}}\right) \\
+&=\frac{\left(X^2+1\right)\left(X^2z^2-X^2-1\right)}{X^4z^2}
+\end{aligned}
 \end{equation*}
 Finally:
 \begin{equation*}
@@ -1908,7 +1915,7 @@ Finally:
 \draw  [draw opacity=0][line width=1.5]  (41.46,20.34) .. controls (43.41,21.98) and (44.92,23.99) .. (45.67,26.17) .. controls (47.56,31.69) and (43.82,36.17) .. (37.31,36.17) .. controls (30.8,36.17) and (23.99,31.69) .. (22.1,26.17) .. controls (20.21,20.65) and (23.95,16.17) .. (30.46,16.17) .. controls (31.31,16.17) and (32.17,16.24) .. (33.01,16.39) -- (33.88,26.17) -- cycle ; \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (43.57,22.47) .. controls (44.5,23.62) and (45.22,24.86) .. (45.67,26.17) .. controls (47.56,31.69) and (43.82,36.17) .. (37.31,36.17) .. controls (30.8,36.17) and (23.99,31.69) .. (22.1,26.17) .. controls (20.21,20.65) and (23.95,16.17) .. (30.46,16.17) .. controls (31.31,16.17) and (32.17,16.24) .. (33.01,16.39) ;  \draw [shift={(41.46,20.34)}, rotate = 50.96] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.68,-1.71) .. controls (3.61,-0.72) and (1.72,-0.15) .. (0,0) .. controls (1.72,0.15) and (3.61,0.72) .. (5.68,1.71)   ;
 \end{tikzpicture}
 \right) -\frac{X^{-2} (X+X^{-1} )}{z}\\
- & =\frac{(1+X^{2} )(-1+X(-1+z^{2} ))}{X^{4} z} .
+ & =\frac{(1+X^{2} )(-1+X^2(-2+z^{2} ))}{X^{5} z} .
 \end{aligned}
 \end{equation*}
 Similarly, we can get for the left trefoil:
@@ -1929,7 +1936,7 @@ Similarly, we can get for the left trefoil:
 \draw [shift={(50.86,25)}, rotate = 187.98] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.68,-1.71) .. controls (3.61,-0.72) and (1.72,-0.15) .. (0,0) .. controls (1.72,0.15) and (3.61,0.72) .. (5.68,1.71)   ;
 \draw [shift={(57.46,61.81)}, rotate = 319.91] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.68,-1.71) .. controls (3.61,-0.72) and (1.72,-0.15) .. (0,0) .. controls (1.72,0.15) and (3.61,0.72) .. (5.68,1.71)   ;
 \end{tikzpicture}
-\right) =-\frac{X(X^{2} +1)(X-z^{2} +1)}{z} .
+\right) =-\frac{X(X^{2} +1)(X-z^{2} +2)}{z} .
 \end{equation*}
 With condition \ref{eq:conditionHOMFLYReturnJones}, we can also get the Jones polynomial:
 \begin{equation*}
@@ -2162,4 +2169,91 @@ in this case:
 \right) =X^{-2} z^{2} -2X^{-2} -X^{-4} .
 \end{equation*}
 
+\section{Knot sum}
+We can imagine that a bigger knot contains such two knots with a crossing labeled by arrows:
 
+\begin{equation*}
+        \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+        \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+        \path (0,48);\path (48.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+        %Straight Lines [id:da7632134069035359] 
+        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (43.32,42.52) -- (5.4,4.6) ;
+        \draw [shift={(45.45,44.64)}, rotate = 225] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+        %Straight Lines [id:da48759388261693837] 
+        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (30.03,20.51) -- (43.88,6.67) ;
+        \draw [shift={(46,4.55)}, rotate = 135] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+        %Straight Lines [id:da9949661796076905] 
+        \draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.55,45) -- (21.51,29.03) ;
+        \end{tikzpicture}
+\end{equation*}
+then we can use HOMFLY the second rule to derive that:
+\begin{equation*}
+XH\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+\path (0,48);\path (48.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+%Straight Lines [id:da41943426839837716] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (43.32,42.52) -- (5.4,4.6) ;
+\draw [shift={(45.45,44.64)}, rotate = 225] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+%Straight Lines [id:da23712263660011845] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (30.03,20.51) -- (43.88,6.67) ;
+\draw [shift={(46,4.55)}, rotate = 135] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+%Straight Lines [id:da5620375686367018] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.55,45) -- (21.51,29.03) ;
+\end{tikzpicture}\right)
++X^{-1}H\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+\path (0,48);\path (48.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+%Straight Lines [id:da4844433501358809] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.95,43.64) -- (43.88,5.72) ;
+\draw [shift={(46,3.6)}, rotate = 135] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+%Straight Lines [id:da9030803034983736] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (21.37,19.51) -- (5.4,3.55) ;
+%Straight Lines [id:da9135630665900198] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (43.73,41.88) -- (29.88,28.03) ;
+\draw [shift={(45.85,44)}, rotate = 225] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+\end{tikzpicture}\right)
+=zH\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+\path (0,47);\path (49.96210479736328,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+%Curve Lines [id:da11561189549367401] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (44.67,4.64) .. controls (26.22,13.6) and (21.46,12.92) .. (3.15,3.31) ;
+\draw [shift={(47.37,3.31)}, rotate = 153.49] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+%Curve Lines [id:da640234207675781] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (44.67,41.21) .. controls (26.22,32.24) and (21.46,32.93) .. (3.15,42.54) ;
+\draw [shift={(47.37,42.54)}, rotate = 206.51] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+\end{tikzpicture}\right)
+\end{equation*}
+
+Now set $X,z$ in equ.~\ref{eq:conditionHOMFLYReturnJones}, using Kauffman rule, it's easy to see that the two knots in the left side are the same (writhe are not important now), then we have:
+\begin{equation*}
+(A^{-4}-A^4) K\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+\path (0,48);\path (48.99652099609375,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+%Straight Lines [id:da41943426839837716] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (43.32,42.52) -- (5.4,4.6) ;
+\draw [shift={(45.45,44.64)}, rotate = 225] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+%Straight Lines [id:da23712263660011845] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (30.03,20.51) -- (43.88,6.67) ;
+\draw [shift={(46,4.55)}, rotate = 135] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+%Straight Lines [id:da5620375686367018] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (5.55,45) -- (21.51,29.03) ;
+\end{tikzpicture}\right)
+=(A^2-A^{-2})K\left(\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1, baseline=(XXXX.south) ]
+\path (0,47);\path (49.96210479736328,0);\draw    ($(current bounding box.center)+(0,0.3em)$) node [anchor=south] (XXXX) {};
+%Curve Lines [id:da11561189549367401] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (44.67,4.64) .. controls (26.22,13.6) and (21.46,12.92) .. (3.15,3.31) ;
+\draw [shift={(47.37,3.31)}, rotate = 153.49] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+%Curve Lines [id:da640234207675781] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (44.67,41.21) .. controls (26.22,32.24) and (21.46,32.93) .. (3.15,42.54) ;
+\draw [shift={(47.37,42.54)}, rotate = 206.51] [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=1 ][line width=1.5]    (8.53,-2.57) .. controls (5.42,-1.09) and (2.58,-0.23) .. (0,0) .. controls (2.58,0.23) and (5.42,1.09) .. (8.53,2.57)   ;
+\end{tikzpicture}\right)
+\end{equation*}
+It's easy to read that:
+
+\begin{equation}
+        \begin{aligned}
+                -(A^2+A^{-2})K(K_1 \# K_2) &= K(K_1)K(K_2) \\
+                K(K_1 \# K_2) &= d^{-1}K(K_1)K(K_2)
+        \end{aligned}
+\end{equation}
