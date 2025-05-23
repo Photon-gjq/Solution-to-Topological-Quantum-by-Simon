@@ -709,7 +709,7 @@ so it cannot obtain all possible unitary operation on this qubit.
 
 
 
-(e) (Unsolved!) With $\sigma _{i} \mapsto U_{i,i+1}$, the relation \eqref{eq:definingRelationOfBraidGroupOnSphere} can be written as:
+(e) With $\sigma _{i} \mapsto U_{i,i+1}$, the relation \eqref{eq:definingRelationOfBraidGroupOnSphere} can be written as:
 \begin{equation*}
 \prod _{i=1}^{2N-1} U_{i,i+1} =\prod _{i=1}^{2N-1} U_{i,i+1}^{\dagger }
 \end{equation*}
@@ -749,7 +749,7 @@ For $N=3$:
 \end{aligned}
 \end{equation*}
 If we only consider the $\gamma ^{\text{FIVE}}$ term:
-\begin{equation*}
+\begin{equation*}\label{FIVE_phase}
 \mathrm{e}^{\mathrm{i}( 2N-1) \alpha } (1+( -\mathrm{i})^{N} \gamma ^{\text{FIVE}} )=\mathrm{e}^{-\mathrm{i}( 2N-1) \alpha } (1+(\mathrm{i})^{N} \gamma ^{\text{FIVE}} ),
 \end{equation*}
 whcih means 
@@ -762,7 +762,9 @@ for even parity, and
 \end{equation*}
 for odd parity.
 
-This isn't over. I will be back.
+[(Unsolved! This isn't over. I will be back. ] From my perspective, we can only focus on the $ \gamma^{\text{FIVE}}$ term.
+
+(f) Such additional phase factor $e^{i\phi} $ could be added to the right hand side of equ.~\ref{FIVE_phase}, we can obtain that $\alpha= \frac{\pi}{8}\frac{2N+ 4\phi /\pi}{2N-1}$, thus $\phi=-\pi/4$ for even parity, $\phi=-\pi/2$ for odd parity, finally we get $\alpha=\pi/8$.
 
 \section{Small Numbers of Anyons on a Sphere}
 On the plane, the braid group of two particles is an infinite group (the group of integers describing the number of twists!). However, this is not true on a sphere.
