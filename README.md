@@ -2,7 +2,7 @@
 
 This is my personal solution to the Topological Quantum lecture notes by Steven H. Simon.
 
-If you have any questions or comments, please feel free to email me at guojq18@fudan.edu.cn.
+If you have any questions or comments, please feel free to email me at jqguo131@connect.hku.hk .
 
 ## License
 
